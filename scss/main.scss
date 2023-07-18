@@ -1,0 +1,33 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+body,
+html {
+   min-height: 100vh;
+   background: linear-gradient(#eef2f2, #e4c0e7);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 22px;
+   color: #434746;
+   font-weight: 600;
+}
+
+.body,
+.header,
+.main {
+   padding: 0 calc(50vw - 600px);
+}
+
+.title {
+   margin: 40px;
+   text-align: center;
+}
+
+.song {
+   text-align: center;
+   li {
+      margin-bottom: 15px;
+      list-style-type: none;
+   }
+}
